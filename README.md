@@ -35,21 +35,21 @@ Your app is ready to be deployed!
 
 ## Repository Structure (To be updated)
 
-├──   public
-    ├──   index.html
-├──   src
-    ├──   api
-    ├──   app
-        ├──   components
-        ├──   containers
-    ├──   assets
-        ├──   img
-    ├──   index.css
-    ├──   index.js
-    ├──   .gitignore
-    ├──   package - lock.json
-    ├──   package.json
-    ├──   README.md
+├──   public<br />
+    ├──   index.html<br />
+├──   src<br />
+    ├──   api<br />
+    ├──   app<br />
+        ├──   components<br />
+        ├──   containers<br />
+    ├──   assets<br />
+        ├──   img<br />
+    ├──   index.css<br />
+    ├──   index.js<br />
+    ├──   .gitignore<br />
+    ├──   package - lock.json<br />
+    ├──   package.json<br />
+    ├──   README.md<br />
 
 
 
