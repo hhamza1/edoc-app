@@ -1,5 +1,9 @@
 # E-DOC : Management Application For Doctors
 
+## Design
+
+The design is provided in Invision  : https://invis.io/AMV47F6HFSX
+
 ## Developers
 
 You need to install NodeJS and NPM in order to run the application on your machine :
