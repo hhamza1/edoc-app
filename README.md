@@ -34,25 +34,25 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 ## Repository Structure (To be updated)
-
-├── public <br/>                 
-├── src <br/>
-│    ├── api <br/>
-│    ├── app <br/>
-│    │   ├── components <br/>
-│    │   │   └── styles <br/>
-│    │   └── containers <br/>
-│    │       └── App.js <br/>
-│    │           └── styles <br/>
-│    │               └── App.css <br/>
-│    ├── assets <br/>
-│    │   └── img <br/>
-│    ├── index.css <br/>
-│    └── index.js <br/>
-├── .gitignore <br/>                   
-├── package.json  <br/>                 
-├── LICENSE <br/>
-└── README.md <br/>
+.
+├── public                 
+├── src 
+│    ├── api 
+│    ├── app 
+│    │   ├── components
+│    │   │   └── styles
+│    │   └── containers
+│    │       └── App.js
+│    │           └── styles
+│    │               └── App.css
+│    ├── assets
+│    │   └── img
+│    ├── index.css
+│    └── index.js
+├── .gitignore                   
+├── package.json                  
+├── LICENSE
+└── README.md
 
 
 
