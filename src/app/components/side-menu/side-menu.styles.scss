@@ -1,10 +1,8 @@
-$primary-color: #B8BBC4;
-$secondary-color: #6AAD8D;
-$bg-color: #F6F7FB;
+@import '../../sass/abstracts/variables';
 
 
 .side-menu {
-    background: rgba($bg-color, .1);
+    background: $bg-color;
     border: 0;
     border-radius: 5px;
     box-shadow: 0px 0px 2px 0px $primary-color;
@@ -13,53 +11,48 @@ $bg-color: #F6F7FB;
 
 
     &__logo {
-        padding-left: 15px;
-
+        height: 20vh;
+        padding: 0 10px 0 0;
         img {
-            width: 80%;
-            height: 6   0%;
+            width: 100%;
+            height: 100%;
         }
     }
 
 
     &__items {
-        margin-top: 2px;
-        padding: 20px 20px;
-
+        padding-right: 0;
         border-top: 1px solid #eee;
 
 
         .item {
-            padding: 20px 0;
-            transition : all .3s ease-in-out;
-        }
+            padding: 20px 15px;
+            transition : all .5s ease-in-out;
 
-
-        .item > a {
-            color: $primary-color;
-            font-size: 1.1rem;
-            font-weight: 400;
-        }
-
-        .item:hover {
 
             a {
-                color: $secondary-color;
+                color: $primary-color;
+                font-size: 1.1rem;
+                font-weight: 600;
             }
+
 
             .icons {
+                color: $primary-color;
+                padding-right: 10px;
+                padding-bottom: 2px;
+            }
+        }
+
+
+        .item:hover {
+            background: rgba($primary-color, .3);
+
+            a, a > .icons{
                 color: $secondary-color;
             }
-
-
-            
-            transform: scale(1.1);
         }
 
-        .icons {
-            color: $primary-color;
-            padding-right: 10px;
-            padding-bottom: 2px;
-        }
+        
     }
 }
