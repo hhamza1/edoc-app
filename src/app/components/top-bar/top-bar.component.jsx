@@ -12,7 +12,7 @@ const TopBar = () => {
         <div className="top-bar">
             <div className="search-input-group">
                 <SearchIcon className="icon" size={18} />
-                <input type="text" name="searchbar" placeholder="Search..." />
+                <input type="text" name="searchbar" placeholder="Chercher..." />
             </div>
             <div className="notification-section">
                 <BellFillIcon  className="icon" size={24} />
