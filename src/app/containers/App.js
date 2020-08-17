@@ -1,9 +1,16 @@
 import React from 'react';
-import './App.css';
+
+/** Components */
+
+import SideMenu from '../components/side-menu/side-menu.component';
+
+/** App style */
+
+import './styles/App.css';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <SideMenu />
   );
 }
 
