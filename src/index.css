@@ -19,6 +19,16 @@ a, li {
     text-decoration: none;
 }
 
+a, a:active {
+    color: #737687;
+}
+
+svg {
+    color: #B7B9C6;
+    vertical-align: middle;
+}
+
+
 li {
     list-style-type: none;
 }
