@@ -12,10 +12,25 @@
 
 
     &__logo-container {
+        display: flex;
         width: 270px;
         height: 100px;
         border-bottom: 1px solid rgba($bg-grey, 1);
         padding: 0 85px;
+
+
+        &--arrow {
+            justify-content: center;
+            align-self: center;
+            font-size: 2rem;
+            padding-left: 50px;
+            color: $primary-color;
+            cursor: pointer;
+        }
+
+        &--arrow:hover {
+            color: $secondary-color;
+        }
     }
 
     &__menu-items {

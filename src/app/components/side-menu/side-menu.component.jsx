@@ -21,6 +21,7 @@ const SideMenu = () => {
     <div className="side-menu">
         <div className="side-menu__logo-container">
           <img src={Logo} alt="E-Doc" />
+          <span className="side-menu__logo-container--arrow">&#8249;</span>
         </div>
         <div className="side-menu__menu-items">
           <ul>
