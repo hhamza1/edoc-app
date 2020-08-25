@@ -1,7 +1,21 @@
 body {
     background: #F6F7FB;
+    
+}
+
+.App {
+    display: grid;
+    grid-template-columns: 270px auto;
+    grid-template-rows: 100px auto;
 }
 
 .nav-menu {
     display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+.main-pages {
+    grid-column-start: 2;
+    grid-row-start: 2;
 }

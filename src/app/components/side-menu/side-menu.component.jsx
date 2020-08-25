@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {Link} from 'react-router-dom';
+
 import Logo from '../../assets/img/edoc.png';
 
 import {MdDashboard, 
@@ -27,31 +29,31 @@ const SideMenu = () => {
           <ul>
             <li className="side-menu__menu-items--element">
               <MdDashboard className="menu-icons"/>
-              <a href="#" alt="Dashboard">Dashboard</a>
+              <Link to="/patientsList" alt="Dashboard">Dashboard</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdWatchLater className="menu-icons"/>
-              <a href="#" alt="Appointments">Appointments</a>
+              <Link to="/patientsList" alt="Appointments">Appointments</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdPermContactCalendar className="menu-icons"/>
-              <a href="#" alt="Calendar">Calendar</a>
+              <Link to="/patientsList" alt="Calendar">Calendar</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdPeople className="menu-icons"/>
-              <a href="#" alt="Patients">Patients</a>
+              <Link to="/patientsList" alt="Patients">Patients</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdAccountBalance className="menu-icons"/>
-              <a href="#" alt="Finance">Finance</a>
+              <Link to="/patientsList" alt="Finance">Finance</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdApps className="menu-icons"/>
-              <a href="#" alt="Inventory">Inventory</a>
+              <Link to="/patientsList" alt="Inventory">Inventory</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdHistory className="menu-icons"/>
-              <a href="#" alt="History">History</a>
+              <Link to="/patientsList" alt="History">History</Link>
             </li>
           </ul>
         </div>
