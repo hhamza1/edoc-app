@@ -1,22 +1,27 @@
 import React from 'react';
 
+/** React Router Container */
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+  BrowserRouter as Router
 } from "react-router-dom";
+
 /** Components */
 import SideMenu from './app/components/side-menu/side-menu.component.jsx';
 import TopBar from './app/components/top-bar/top-bar.component.jsx';
 
+/** Routing List */
 
+import RouteList from './RouteList.js';
 
 /** App style */
 
 import './App.css';
-import PatientsList from './app/pages/patients-list/patients-list.component.jsx';
+
+
 
 function App() {
+
+
   return (
     <Router>
       <div className="App">
@@ -25,11 +30,7 @@ function App() {
           <TopBar />
         </div>
         <div className="main-pages">
-          <Switch>
-              <Route path="/patientsList">
-                  <PatientsList />
-              </Route>
-            </Switch>
+          <RouteList />
         </div>
       </div>
     </Router>

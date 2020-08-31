@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Link} from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
 
 import Logo from '../../assets/img/edoc.png';
 
@@ -16,8 +16,13 @@ import {MdDashboard,
 
 import './side-menu.styles.scss';
 
-
 const SideMenu = () => {
+
+  let {pathname} = useLocation();
+  
+
+  // Detect the current page 
+
 
   return(
     <div className="side-menu">
@@ -29,15 +34,15 @@ const SideMenu = () => {
           <ul>
             <li className="side-menu__menu-items--element">
               <MdDashboard className="menu-icons"/>
-              <Link to="/patientsList" alt="Dashboard">Dashboard</Link>
+              <Link to="/dashboard" alt="Dashboard">Dashboard</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdWatchLater className="menu-icons"/>
-              <Link to="/patientsList" alt="Appointments">Appointments</Link>
+              <Link to="/appointments" alt="Appointments">Appointments</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdPermContactCalendar className="menu-icons"/>
-              <Link to="/patientsList" alt="Calendar">Calendar</Link>
+              <Link to="/calendar" alt="Calendar">Calendar</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdPeople className="menu-icons"/>
@@ -45,15 +50,15 @@ const SideMenu = () => {
             </li>
             <li className="side-menu__menu-items--element">
               <MdAccountBalance className="menu-icons"/>
-              <Link to="/patientsList" alt="Finance">Finance</Link>
+              <Link to="/finance" alt="Finance">Finance</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdApps className="menu-icons"/>
-              <Link to="/patientsList" alt="Inventory">Inventory</Link>
+              <Link to="/inventory" alt="Inventory">Inventory</Link>
             </li>
             <li className="side-menu__menu-items--element">
               <MdHistory className="menu-icons"/>
-              <Link to="/patientsList" alt="History">History</Link>
+              <Link to="/history" alt="History">History</Link>
             </li>
           </ul>
         </div>

@@ -62,6 +62,16 @@
             background: rgba($secondary-color, .05);
             border-right: 3px solid $secondary-color;
         }
+
+        &--element:active {
+            a, .menu-icons {
+                color: $secondary-color;
+            }
+
+
+            background: rgba($secondary-color, .05);
+            border-right: 3px solid $secondary-color;
+         }
     
     }
 
