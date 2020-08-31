@@ -1,0 +1,10 @@
+
+.patients-list {
+    display: flex;
+    flex-flow: column;
+
+    .cta-group {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

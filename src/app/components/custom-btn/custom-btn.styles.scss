@@ -1,0 +1,20 @@
+@import '../../sass/abstracts/variables';
+
+
+.btn {
+    background: rgba($primary-color, .3);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: -1px 1px 1px 0px rgba($primary-color, .4);
+    color: rgba($secondary-color, .9);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 10px;
+    padding : 10px 20px;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background: rgba($primary-color, .5);
+    color: rgba($secondary-color, 1);
+}
