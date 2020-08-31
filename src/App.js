@@ -25,13 +25,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="nav-menu">
-          <SideMenu />
-          <TopBar />
-        </div>
-        <div className="main-pages">
-          <RouteList />
-        </div>
+      <TopBar />
+      <SideMenu />
+      <div className="main-pages">
+        <RouteList />
+      </div>
       </div>
     </Router>
 
