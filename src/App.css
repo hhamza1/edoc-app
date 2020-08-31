@@ -5,8 +5,10 @@ body {
 
 .App {
     display: grid;
-    grid-template-columns: 270px auto;
-    grid-template-rows: 100px auto;
+    grid-template-columns: repeat(6, 270px);
+    grid-template-rows: repeat(7, 100px);
+    width: 100vw;
+    height: 100vh;
 }
 
 .nav-menu {
