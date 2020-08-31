@@ -12,8 +12,8 @@ const PatientsList = () => {
         <div className="patients-list">
             <h1>Patients List</h1>
             <div className="cta-group">
-                <CustomBtn href="#" className="btn" title="Show Filters"/>
-                <CustomBtn href="#" className="btn" title="Add Patient"/>
+                <CustomBtn href="#" title="Show Filters"/>
+                <CustomBtn href="#" title="Add Patient" reverse/>
             </div>
             <div className="patients-list__list">
                 Patients list down here

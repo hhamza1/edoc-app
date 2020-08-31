@@ -12,9 +12,24 @@
     margin-left: 10px;
     padding : 10px 20px;
     transition: all .3s ease-in-out;
+
+
+    &--reverse {
+        background: rgba($secondary-color, .7);
+        box-shadow: -1px 1px 1px 0px rgba($secondary-color, .7);
+        color: rgba(#fff, .9);
+    }
+
 }
 
 .btn:hover {
-    background: rgba($primary-color, .5);
+    background: rgba($primary-color, .60);
     color: rgba($secondary-color, 1);
+
+    
+}
+
+.btn--reverse:hover {
+    background: rgba($secondary-color, 1);
+    color: rgba(#fff, 1);
 }

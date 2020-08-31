@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 
 
 import './custom-btn.styles.scss';
@@ -7,7 +7,7 @@ import './custom-btn.styles.scss';
 
 const CustomBtn = (props) => {
     return(
-        <a href="#" className="btn">{props.title}</a>
+        <a href="#" className={props.reverse ? "btn btn--reverse" : "btn"}>{props.title}</a>
     )
 }
 
