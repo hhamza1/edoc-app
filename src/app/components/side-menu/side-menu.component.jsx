@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 import Logo from '../../assets/img/edoc.png';
 
@@ -45,36 +45,35 @@ class SideMenu extends Component {
             </span>
           </div>
           <div className="side-menu__menu-items">
-            <ul>
-              <li className="side-menu__menu-items--element">
+            <NavLink 
+              className="side-menu__menu-items--element" to="/dashboard" alt="Dashboard" activeClassName="side-menu__menu-items--element--active">
                 <MdDashboard className="menu-icons"/>
-                <Link to="/dashboard" alt="Dashboard">Dashboard</Link>
-              </li>
-              <li className="side-menu__menu-items--element">
-                <MdWatchLater className="menu-icons"/>
-                <Link to="/appointments" alt="Appointments">Appointments</Link>
-              </li>
-              <li className="side-menu__menu-items--element">
-                <MdPermContactCalendar className="menu-icons"/>
-                <Link to="/calendar" alt="Calendar">Calendar</Link>
-              </li>
-              <li className="side-menu__menu-items--element">
-                <MdPeople className="menu-icons"/>
-                <Link to="/patientsList" alt="Patients">Patients</Link>
-              </li>
-              <li className="side-menu__menu-items--element">
+                Dashboard
+            </NavLink>
+            <NavLink className="side-menu__menu-items--element" to="/appointments" alt="Appointments" activeClassName="side-menu__menu-items--element--active">
+                  <MdWatchLater className="menu-icons"/>
+                  Appointments
+                </NavLink>
+              <NavLink className="side-menu__menu-items--element" to="/calendar" alt="Calendar" activeClassName="side-menu__menu-items--element--active">
+                  <MdPermContactCalendar className="menu-icons"/>
+                  Calendar
+              </NavLink>
+              <NavLink className="side-menu__menu-items--element" to="/patientsList" alt="Patients" activeClassName="side-menu__menu-items--element--active">
+                  <MdPeople className="menu-icons"/>
+                  Patients
+              </NavLink>
+              <NavLink className="side-menu__menu-items--element" to="/finance" alt="Finance" activeClassName="side-menu__menu-items--element--active">
                 <MdAccountBalance className="menu-icons"/>
-                <Link to="/finance" alt="Finance">Finance</Link>
-              </li>
-              <li className="side-menu__menu-items--element">
-                <MdApps className="menu-icons"/>
-                <Link to="/inventory" alt="Inventory">Inventory</Link>
-              </li>
-              <li className="side-menu__menu-items--element">
+                Finance
+              </NavLink>
+              <NavLink className="side-menu__menu-items--element" to="/inventory" alt="Inventory" activeClassName="side-menu__menu-items--element--active">
+                  <MdApps className="menu-icons"/>
+                  Inventory
+              </NavLink>
+              <NavLink className="side-menu__menu-items--element" to="/history" alt="History" activeClassName="side-menu__menu-items--element--active">
                 <MdHistory className="menu-icons"/>
-                <Link to="/history" alt="History">History</Link>
-              </li>
-            </ul>
+                History
+              </NavLink>
           </div>
       </div>
     )

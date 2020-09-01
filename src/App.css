@@ -5,29 +5,25 @@ body {
 
 .App {
     display: grid;
-    grid-template-columns: repeat(6, 243px);
-    grid-template-rows: repeat(9, 100px);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
 
 .side-menu {
-    grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row: 1/6;
     grid-column-start: 1;
 }
 
 .top-bar {
     grid-row-start: 1;
-    grid-column-start: 2;
-    grid-column-end: 8;
+    grid-column: 2/8;
 }
 
 .main-pages {
-    grid-column-start: 2;
-    grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 6;
+    grid-column: 2/8;
+    grid-row: 2/6;
     margin: 0 30px;
 }

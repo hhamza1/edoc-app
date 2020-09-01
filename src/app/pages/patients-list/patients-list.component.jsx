@@ -41,7 +41,7 @@ const PatientsList = () => {
                             </td>
                             <td>1</td>
                             <td>
-                                <img src="#" alt="Picture" />
+                                <img src="#" alt="Patient profile" />
                             </td>
                             <td>Jon Snow</td>
                             <td>BB123456</td>
@@ -55,7 +55,7 @@ const PatientsList = () => {
                             </td>
                             <td>1</td>
                             <td>
-                                <img src="#" alt="Picture" />
+                                <img src="#" alt="Patient profile" />
                             </td>
                             <td>Jon Snow</td>
                             <td>BB123456</td>
@@ -69,7 +69,7 @@ const PatientsList = () => {
                             </td>
                             <td>1</td>
                             <td>
-                                <img src="#" alt="Picture" />
+                                <img src="#" alt="Patient profile" />
                             </td>
                             <td>Jon Snow</td>
                             <td>BB123456</td>

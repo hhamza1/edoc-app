@@ -18,27 +18,13 @@ import Finance from './app/pages/finance/finance.component.jsx';
 const RouteList = () => {
     return (
         <Switch>
-            <Route path="/dashboard">
-                <Dashboard />
-            </Route>
-            <Route path="/appointments">
-                <Appointments />
-            </Route>
-            <Route path="/calendar">
-                <Calendar />
-            </Route>
-            <Route path="/patientsList">
-                <PatientsList />
-            </Route>
-            <Route path="/finance">
-                <Finance />
-            </Route>
-            <Route path="/inventory">
-                <Inventory />
-            </Route>
-            <Route path="/history">
-                <History />
-            </Route>
+            <Route path="/dashboard" component={Dashboard} />
+            <Route path="/appointments" component={Appointments} />
+            <Route path="/calendar" component={Calendar} />
+            <Route path="/patientsList" component={PatientsList} />
+            <Route path="/finance" component={Finance} />
+            <Route path="/inventory" component={Inventory} />
+            <Route path="/history" component={History} />
         </Switch>
     );
 }
